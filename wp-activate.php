@@ -12,7 +12,6 @@ define( 'WP_INSTALLING', true );
 require __DIR__ . '/wp-load.php';
 
 require __DIR__ . '/wp-blog-header.php';
-
 if ( ! is_multisite() ) {
 	wp_redirect( wp_registration_url() );
 	die();
@@ -216,3 +215,4 @@ $blog_details = get_site();
 </div>
 <?php
 get_footer( 'wp-activate' );
+
