@@ -4,7 +4,7 @@
  * up for a new site matches the key for that user and then displays confirmation.
  *
  * @package WordPress
- */
+ */ 
 
 define( 'WP_INSTALLING', true );
 
@@ -215,4 +215,5 @@ $blog_details = get_site();
 </div>
 <?php
 get_footer( 'wp-activate' );
+
 
