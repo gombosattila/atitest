@@ -3,7 +3,7 @@
  * WordPress Signup Page
  *
  * Handles the user registration and site creation process for multisite installations.
- *
+ *dadadada
  * @package WordPress
  */
 
@@ -1051,3 +1051,4 @@ do_action( 'after_signup_form' );
 
 <?php
 get_footer( 'wp-signup' );
+
