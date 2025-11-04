@@ -1,0 +1,2 @@
+- name: tmas-scan
+  uses: trendmicro/tmas-scan-action@v3.0.1
